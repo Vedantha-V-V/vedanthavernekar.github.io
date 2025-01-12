@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedantha's Website</title>
+    <link rel="icon" href="logo.webp">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="main-content">
+    <header class="section sec1 header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi I'm <br><span>Vedantha Vinay Vernekar</span><br>
+                    <i class="fas fa-arrow"></i>
+                    <span class="posts" id="type">Aspiring Data Scientist</span>
+                </h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section sec2 about" id="about">
+            <div class="main-title">
+                <h2>About <span>Me</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Information About</h4>
+                    <p>
+                        Currently, I'm honing my skills in Python, React JS, and SQL, coupled with a fundamental understanding of Data Structures & Algorithms (DSA) and C programming. 
+                    </p>
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h3>React</h3>
+                                <p class="prog-text">Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h3>Python</h3>
+                                <p class="prog-text">Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h3>MySQL</h3>
+                                <p class="prog-text">Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h3>MongoDB</h3>
+                                <p class="prog-text">Basics</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <h4 class="stat-title">My Timeline</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <p class="tl-duration">2023-2027</p>
+                    <h5>BMS College of Engineering <span>CS(DS)</span></h5>
+                </div>
+            </div>
+        </section>
+        <section class="section sec3 portfolio" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span></h2>
+            </div>
+            <p class="port-text">
+                Here are some of my works
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="Project-1.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/Vedantha-V-V/artisanal-marketplace" target="_blank" class="icon">
+                                <i class="fas fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section sec4 contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span></h2>
+                </div>
+                <div class="contact-info-upper-container">
+                    <div class="contact-info-container">
+                        <i class="fab fa-github-square"></i>
+                        <p><a href="https://github.com/Vedantha-V-V" target="_blank">GitHub</a></p>
+                    </div>
+                    <div class="contact-info-container">
+                        <i class="fab fa-linkedin"></i>
+                        <p><a href="https://www.linkedin.com/in/vedanthavernekar/">LinkedIn</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control control-1 active-btn" data-id="home">
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control control-2" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control control-3" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control control-5" data-id="contact">
+            <i class="fas fa-envelope"></i>
+        </div>
+    </div>
+
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
