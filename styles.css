@@ -584,11 +584,15 @@ img{
 
     .header-content{
         padding:0;
+        display:flex;
+        align-items:center;
+        flex-direction:row;
     }
 
     header .right-header{
         padding:0;
-        margin-right:50px;
+        margin-right:10px;
+        width:100%;
     }
 
     header .left-header{
