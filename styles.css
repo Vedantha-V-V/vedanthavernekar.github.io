@@ -593,6 +593,7 @@ img{
 
     header .left-header{
         left:0;
+        width:0;
     }
 
     /*Portfolio*/
